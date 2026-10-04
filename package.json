@@ -1,0 +1,14 @@
+{
+  "name": "ai-workshop-growth-hub",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build": "npm run build --prefix server && npm run build --prefix client",
+    "test": "npm test --prefix server && npm test --prefix client",
+    "test:integration": "npm run test:integration --prefix server",
+    "typecheck": "npm run typecheck --prefix server && npm run typecheck --prefix client",
+    "seed": "npm run seed --prefix server"
+  }
+}
